@@ -1,0 +1,2 @@
+export KEVM_DIR=$(pwd)
+eval "$(lorri direnv)"

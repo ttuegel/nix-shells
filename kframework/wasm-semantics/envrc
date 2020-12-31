@@ -1,0 +1,4 @@
+export KWASM_DIR=$(pwd)
+export KORE="${KORE:-$HOME/kore}"
+PATH_add "$KORE/.build/kore/bin"
+eval "$(lorri direnv)"
