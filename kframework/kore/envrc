@@ -2,5 +2,6 @@ export KORE=$(pwd)
 PATH_add "$KORE/.build/kore/bin"
 use_nix_gcrooted -a shell.nix \
     -w default.nix \
-    -w package.yaml \
+    -w nix/sources.json \
+    -w kore/package.yaml \
     -w stack.yaml
